@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.pic4{
+    height: 450px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 200px 200px;
+    overflow: hidden;
+}
+ .img{
+    padding: 0;
+    width: 200px; 
+    height: 237px; 
+    object-fit:cover;  
+}
+.below{
+    margin-top: -10px;
+}
+.wrapper{
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.discount{
+    font-size: 24px;
+    text-align: center;
+    width: 170px;
+    font-weight: 300;
+}
+.inverted{
+    height: 450px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 200px 200px 0 0;
+    overflow: hidden;
+}
+
