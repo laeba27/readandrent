@@ -1,0 +1,113 @@
+.book {
+    position: relative;
+    width: 300px;
+    height: 450px;
+    background-color: antiquewhite;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    -webkit-transform: preserve-3d;
+    -ms-transform: preserve-3d;
+    transform: preserve-3d;
+    -webkit-perspective: 2000px;
+    perspective: 2000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    
+  }
+  
+  .cover {
+    top: 0;
+    position: absolute;
+    background-color: antiquewhite;
+
+    cursor: pointer;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    -webkit-transform-origin: 0;
+    -ms-transform-origin: 0;
+    transform-origin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  
+  .book:hover .cover {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: rotatey(-80deg);
+    -ms-transform: rotatey(-80deg);
+    transform: rotatey(-80deg);
+  }
+  
+  p {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .topbest{
+    padding: 100px;
+  }
+  .about{
+    padding:40px ;
+    font-size: 15px;
+    font-family: cursive;
+  }
+  .abouttitle{
+    font-size: 25px;
+    font-weight: 900;
+  }
+  .moreinfo{
+    padding:8px;
+    width: 100px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.222);
+    color: rgb(246, 235, 220);
+    background-color: black;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+  .moreinfo:hover{
+    box-shadow: 0px 0px 20px 1px #ffbb76ab;
+    border: 1px solid rgba(255, 255, 255, 0.454);
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nameauthor{
+    padding: 10px;
+  }
+  .author{
+    color: rgb(67, 65, 65);
+    font-weight: 300;
+  }
+  .title{
+    font-size:1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    padding-bottom:40px ;
+    padding-top: 40px;
+  }
+  .title{
+    display: flex;
+    gap: 30px;
+   align-items: center;
+  }
+  .explore{
+    font-size: 13px;
+    color: rgb(167, 33, 33);
+  }

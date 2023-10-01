@@ -6,7 +6,7 @@ const Offer = () => {
             
   return (
     <div>
-      <h1 className={styles.offer}>Offer</h1>
+      <h1 className={styles.offer}>Offers</h1>
       
       <div className={styles.wrapper}>
         {offerData.map((item, index) => {
@@ -27,11 +27,13 @@ const Offer = () => {
               <h1 className={styles.discount}>
                 This Months Discount is-{item.discount}
               </h1>
+              
            </div>
 
           );
         })}
       </div>
+      <button className={styles.seeall}>See All</button>
     </div>
   );
 };

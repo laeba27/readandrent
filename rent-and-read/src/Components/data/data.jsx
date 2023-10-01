@@ -98,4 +98,77 @@ export const booksData = [
     },
    
   ]
+  export const topbestData =[
+    {
+      imageSrc1: book20,
+      name: "Surreal Spaces",
+      author: "Joanna Moorhead",
+      price: "100/-",
+      about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    },
+    {
+      imageSrc1: book15,
+      name: "Surreal Spaces",
+      author: "Joanna Moorhead",
+      price: "100/-",
+      about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    },
+    {
+      imageSrc1: book23,
+      name: "Surreal Spaces",
+      author: "Joanna Moorhead",
+      price: "100/-",
+      about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    },
+    {
+      imageSrc1: book22,
+      name: "Surreal Spaces",
+      author: "Joanna Moorhead",
+      price: "100/-",
+      about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    },
+    // {
+    //   imageSrc1: book2,
+    //   name: "Surreal Spaces",
+    //   author: "Joanna Moorhead",
+    //   price: "100/-",
+    //   about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    // },
+    // {
+    //   imageSrc1: book4,
+    //   name: "Surreal Spaces",
+    //   author: "Joanna Moorhead",
+    //   price: "100/-",
+    //   about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    // },
+    // {
+    //   imageSrc1: book5,
+    //   name: "Surreal Spaces",
+    //   author: "Joanna Moorhead",
+    //   price: "100/-",
+    //   about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    // },
+    // {
+    //   imageSrc1: book6,
+    //   name: "Surreal Spaces",
+    //   author: "Joanna Moorhead",
+    //   price: "100/-",
+    //   about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    // },
+    // {
+    //   imageSrc1: book7,
+    //   name: "Surreal Spaces",
+    //   author: "Joanna Moorhead",
+    //   price: "100/-",
+    //   about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    // },
+    // {
+    //   imageSrc1: book8,
+    //   name: "Surreal Spaces",
+    //   author: "Joanna Moorhead",
+    //   price: "100/-",
+    //   about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    // },
+    
+  ]
   
