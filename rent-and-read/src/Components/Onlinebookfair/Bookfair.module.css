@@ -1,12 +1,16 @@
 .backimg{
-    position: relative;
+    
     margin-top: 40px;
     width: 100vw; 
     height: 70vh;
 }
+.fair {
+  position: relative;
+}
 .card{
     position: absolute;
-    bottom: -120%;
+    bottom: 50%;
+   transform: translateY(50%);
     right: 10%;
     height: fit-content;
     width: 500px;

@@ -1,37 +1,41 @@
 
-.container{
- display: flex;
- overflow-x: scroll;
-}
 .container::-webkit-scrollbar {
   display: none;
 }
 
+.carousel {
+  width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
 .header {
+  position: relative;
   background-color: antiquewhite;
-  padding: 20px 90px;
-  width: fit-content;
+  padding: 20px;
+  flex: 0 0 100vw;
+  padding: 50px 90px;
   display: flex;
+  flex-direction: row;
   gap: 20px;
+  overflow: hidden;
 }
-.header2 {
-  background-color: antiquewhite;
-  padding: 20px 100px;
-  display: flex;
-  gap: 20px;
-}
-.header3 {
-  background-color: antiquewhite;
-  padding: 20px 100px;
-  display: flex;
-  gap: 20px;
-}
-.left{
-    padding-top: 40px;
+
+.left {
+  flex: 1;
 }
 .left h1 {
   font-size: 100px;
   width: 500px;
+  font-weight: 900;
 }
 .left p {
   font-size: 17px;
@@ -48,26 +52,24 @@
   background-color: black;
   color: white;
 }
-.bookspic{
-    display: flex;
-    gap: 20px;
-    margin: 30px 5px;
+.bookspic {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
 }
-.book2{
-   border-radius: 0 0 120px 120px;
-   border:4px solid black;
+.book2 {
+  border-radius: 0 0 120px 120px;
+  border: 4px solid black;
 }
-.book1{
-   border-radius: 120px 120px 0 0;
-   border:4px solid black;
-   
+.book1 {
+  border-radius: 120px 120px 0 0;
+  border: 4px solid black;
 }
-.bookcontainer1{
-    text-align: center; 
-   
+.bookcontainer1 {
+  text-align: center;
 }
-.bookcontainer2{
-    text-align: center; 
+.bookcontainer2 {
+  text-align: center;
 }
-
-
