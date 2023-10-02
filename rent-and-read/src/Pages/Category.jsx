@@ -1,10 +1,12 @@
 import HeaderCategory from "../Components/categorypage/Headercategory/HeaderCategory"
 import BooksCategory from '../Components/categorypage/bookscategory/category'
+import NavBar from "../Components/Navbar/Navbar"
 const Category = () => {
   return (
     <div>
-     <HeaderCategory/> 
-     <BooksCategory />
+      <NavBar />
+      <HeaderCategory />
+      <BooksCategory />
     </div>
   )
 }

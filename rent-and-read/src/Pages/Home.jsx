@@ -1,21 +1,24 @@
+import Header from "../Components/Header/Header";
+import Bestseller from "../Components/Bestseller/Bestseller";
+import Bookfair from "../Components/Onlinebookfair/Bookfair";
+import Topbest from "../Components/topbest/topbest";
+import Offer from "../Components/Offers/Offer";
+import NavBar from "../Components/Navbar/Navbar";
+import Footer from "../Components/footer/footer"
 
-import Header from '../Components/Header/Header'
-import Bestseller from '../Components/Bestseller/Bestseller'
-import Bookfair from '../Components/Onlinebookfair/Bookfair'
-import Topbest from '../Components/topbest/topbest'
-import Offer from '../Components/Offers/Offer'
 const Home = () => {
+
   return (
     <div>
-   
-      <Header/>
-    <Bestseller/>
-    <Bookfair/>
-    <Offer/>
-    <Topbest/>
-
+      <NavBar/>
+      <Header />
+      <Bestseller />
+      <Bookfair />
+      <Offer />
+      <Topbest/>
+      <Footer/>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

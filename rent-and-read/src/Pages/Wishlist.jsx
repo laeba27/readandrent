@@ -1,11 +1,14 @@
+import WishlistItem from "../Components/Wishlist/Wishlistsection/WishlistItem";
+import NavBar from "../Components/Navbar/Navbar"
 
 
 const Wishlist = () => {
   return (
     <div>
-      wishlist
+      <NavBar />
+      <WishlistItem />
     </div>
-  )
-}
+  );
+};
 
-export default Wishlist
+export default Wishlist;

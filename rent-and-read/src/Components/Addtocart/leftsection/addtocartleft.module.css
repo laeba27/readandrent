@@ -1,0 +1,136 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  background-color: #f1f6f9;
+  border-radius: 14px;
+  margin-bottom: 20px;
+  background-color: antiquewhite;
+  border: 5px solid black;
+}
+
+.left img {
+  height: 300px;
+  object-fit: contain;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+.bookinfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.choose {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 30px 0;
+}
+.chooseleft {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.hr {
+  height: 1px;
+  width: 100%;
+  background-color: black;
+  opacity: 0.4;
+  border: none;
+}
+.optbtn {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 30px 0;
+}
+.wish {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: rgb(192, 21, 146);
+  cursor: pointer;
+}
+
+.remove {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.remove h5 {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: red;
+}
+.remove img {
+  height: 20px;
+  width: 20px;
+  object-fit: contain;
+}
+
+.bookname h1 {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.bookprice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bookprice h5 {
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: white;
+  background-color: black;
+  padding: 10px 30px;
+}
+.options span {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.qunatity {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin-right: 10px;
+}
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100px;
+}
+
+option {
+  background-color: #fff;
+  color: #333;
+  padding: 8px;
+  font-size: 16px;
+}
+.status h5 {
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}

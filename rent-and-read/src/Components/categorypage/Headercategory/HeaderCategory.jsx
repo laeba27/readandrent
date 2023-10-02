@@ -11,7 +11,8 @@ const HeaderCategory = () => {
         <div className={styles.zoom}>
           <img src={book2} alt="" />
           <p>
-            That is the thing about books. They let you travel without moving
+            That is the thing about books. <hr />
+             They let you travel without moving
             your feet.
           </p>
           <br />

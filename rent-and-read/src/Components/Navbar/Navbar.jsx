@@ -2,7 +2,10 @@ import styles from  "../Navbar/navbar.module.css";
 import logo from "../../assets/logo.png";
 import searchlogo from "../../assets/search.svg";
 import {  Link } from "react-router-dom";
+// import { useState } from "react";
+
 export default function NavBar() {
+// const [isuser, setisuser] = useState(username)
   return (
     <div className={styles.navbar}>
     <div className={styles.leftnav}>
@@ -20,7 +23,7 @@ export default function NavBar() {
       <img className={styles.searchlogo} src={searchlogo} alt="" />
         <input type={styles.text} placeholder="Search your book"  />
         <h2>|</h2>
-         <h4 className={styles.signin}>SignIn</h4>
+         <Link to="/signin">SignIn</Link>
       </div>
      
     </div>

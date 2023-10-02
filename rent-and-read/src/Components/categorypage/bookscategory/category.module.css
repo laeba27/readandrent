@@ -1,11 +1,20 @@
+.container {
+  display: flex;
+  overflow: hidden;
+}
 .verticalnavbar {
-  width: 200px; /* Adjust the width as needed */
+  flex: 1;
+  width: 200px;
   background-color: rgb(218, 168, 103);
   color: black;
   font-family: Arial, sans-serif;
   height: 90vh;
 }
-.verticalnavbar h3{
+.selection {
+  flex: 4;
+  width: 100%;
+}
+.verticalnavbar h3 {
   text-align: center;
   padding: 10px;
   text-decoration: underline;
@@ -30,6 +39,6 @@
   color: black;
   font-weight: 900;
 }
-.container{
+.container {
   display: flex;
 }

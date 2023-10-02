@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    padding: 40px 100px;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+.firstrow{
+    display: flex;
+    flex-direction: column;
+}
+.firstrow ul{
+    padding-top: 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.firstrow li{
+    padding: 5px;
+    font-size: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.firstrow h2{
+    font-size: 24px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.firstrow input{
+   margin: 10px 0;
+   height: 40px;
+   width: 300px;
+   border: none;
+   text-align: center;
+   font-size: 13px;
+}
+.firstrow button{
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.222);
+    color: rgb(246, 235, 220);
+    background-color: black;
+    cursor: pointer;
+}

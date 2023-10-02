@@ -1,0 +1,60 @@
+.container {
+  height: 300px;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  
+}
+.heading {
+  font-size: 26px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.subtotal {
+  padding: 15px 5px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-bottom-width: 0;
+}
+.tax {
+  display: flex;
+  padding: 15px 5px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-bottom-width: 0;
+}
+.total {
+  display: flex;
+  padding: 15px 5px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+.continue {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 15px 0;
+  cursor: pointer;
+}
+.continue h5 {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.title {
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.amount{
+  background-color: antiquewhite;
+}
