@@ -20,7 +20,7 @@ const Header = () => {
                 <div className={styles.left}>
                   <h1>Find Your Next Book</h1>
                   <p>
-                  Start a Reading Adventure: Explore, Find, and Dive into Books with 'Find Your Next Book' – Your Trusted Friend for Handpicked Reading Recommendations!
+                  Start a Reading Adventure: Explore, Find, and Dive into Books {"with '"}Find Your Next {"Book'"} – Your Trusted Friend for Handpicked Reading Recommendations!
                   </p>
                   <Link to={"/category"}>
 

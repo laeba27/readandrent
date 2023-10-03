@@ -117,7 +117,7 @@ const SelectionCategory = () => {
                                     <img className={styles.img} src={item.imageSrc} alt="" />
                                     <div className={styles.info}>
                                         <h5>{item.name.length > 10 ? `${item.name.substring(0, 10)}...` : item.name}</h5>
-                                        <h5>{item.price}</h5>
+                                        <h5>Rs{item.price}</h5>
                                     </div>
                                     <div className={styles.bookbtn}>
                                         <Link to={"/addtocart"}>
@@ -145,7 +145,7 @@ const SelectionCategory = () => {
                                     <img className={styles.img} src={item.imageSrc1} alt="" />
                                     <div className={styles.info}>
                                         <h5>{item.name.length > 10 ? `${item.name.substring(0, 10)}...` : item.name}</h5>
-                                        <h5>{item.price}</h5>
+                                        <h5>Rs{item.price}</h5>
                                     </div>
                                     <div className={styles.bookbtn}>
                                         <button onClick={() => handleAddToCart(index)}>add to cart</button>
@@ -170,7 +170,7 @@ const SelectionCategory = () => {
                                     <img className={styles.img} src={item.imageSrc} alt="" />
                                     <div className={styles.info}>
                                         <h5>{item.name.length > 10 ? `${item.name.substring(0, 10)}...` : item.name}</h5>
-                                        <h5>{item.price}</h5>
+                                        <h5>Rs{item.price}</h5>
                                     </div>
                                     <div className={styles.bookbtn}>
                                         <button onClick={() => handleAddToCart(index)}>add to cart</button>
@@ -195,7 +195,7 @@ const SelectionCategory = () => {
                                     <img className={styles.img} src={item.imageSrc} alt="" />
                                     <div className={styles.info}>
                                         <h5>{item.name.length > 10 ? `${item.name.substring(0, 10)}...` : item.name}</h5>
-                                        <h5>{item.price}</h5>
+                                        <h5>Rs{item.price}</h5>
                                     </div>
                                     <div className={styles.bookbtn}>
                                         <button onClick={() => handleAddToCart(index)}>add to cart</button>
@@ -220,7 +220,7 @@ const SelectionCategory = () => {
                                     <img className={styles.img} src={item.imageSrc} alt="" />
                                     <div className={styles.info}>
                                         <h5>{item.name.length > 10 ? `${item.name.substring(0, 10)}...` : item.name}</h5>
-                                        <h5>{item.price}</h5>
+                                        <h5>Rs{item.price}</h5>
                                     </div>
                                     <div className={styles.bookbtn}>
                                         <button onClick={() => handleAddToCart(index)}>add to cart</button>
@@ -245,7 +245,7 @@ const SelectionCategory = () => {
                                     <img className={styles.img} src={item.imageSrc} alt="" />
                                     <div className={styles.info}>
                                         <h5>{item.name.length > 10 ? `${item.name.substring(0, 10)}...` : item.name}</h5>
-                                        <h5>{item.price}</h5>
+                                        <h5>Rs{item.price}</h5>
                                     </div>
                                     <div className={styles.bookbtn}>
                                         <button onClick={() => handleAddToCart(index)}>add to cart</button>

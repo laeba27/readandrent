@@ -8,7 +8,9 @@ const bookfair = () => {
         <img className={styles.backimg} src={img} alt="" />
         <div className={styles.card}>
             <h1 className={styles.topic}>Online Book Fair 2023</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam fugit vero ipsam delectus nam consequuntur id explicabo ducimus consectetur. </p>
+            <p>Discover, Explore, and Immerse Yourself in the World of Literature! <br />
+            A Digital Wonderland for Book Lovers - Join Us in 2023
+             </p>
             <button className={styles.account}>Create Your Account</button>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import  { Component } from 'react';
-import styles from '../registration/registration.module.css'; // Import your CSS module
+import styles from '../registration/registration.module.css'; 
 
 class RegistrationForm extends Component {
   constructor(props) {
