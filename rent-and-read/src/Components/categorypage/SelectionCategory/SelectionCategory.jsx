@@ -2,8 +2,7 @@ import styles from "./selectioncategory.module.css"
 import { useState } from 'react'
 import { topbestData, fictionData, phylosphyData, scienceData, historyData, todayoffer } from '../../data/data'
 import { Link } from "react-router-dom"
-// import Cart from "../../Cart"
-// import Product from "../../Product"
+
 
 
 const SelectionCategory = () => {
@@ -17,7 +16,7 @@ const SelectionCategory = () => {
     const [history, sethistory] = useState(false)
 
     const [cart, setCart] = useState([]);
-    // const [products] = useState(initialProducts);
+    
 
 
     const handlewishlist = (index) => {

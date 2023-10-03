@@ -3,6 +3,7 @@ import styles from "../Header/header.module.css";
 import book from "../../assets/h-book1.png";
 import book2 from "../../assets/h-book3.png";
 import book3 from "../../assets/h-book2.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
 
@@ -19,10 +20,12 @@ const Header = () => {
                 <div className={styles.left}>
                   <h1>Find Your Next Book</h1>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit lorem.Lorem
-                    ipsum dolor sit amet consectetur
+                  Start a Reading Adventure: Explore, Find, and Dive into Books with 'Find Your Next Book' – Your Trusted Friend for Handpicked Reading Recommendations!
                   </p>
+                  <Link to={"/category"}>
+
                   <button className={styles.explore}>Explore now</button>
+                  </Link>
                 </div>
                 <div className={styles.bookspic}>
                   <div className={styles.bookcontainer1}>

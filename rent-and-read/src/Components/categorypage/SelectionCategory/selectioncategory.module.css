@@ -16,7 +16,7 @@
 .btn {
   padding: 12px 35px;
   background-color: antiquewhite;
-  border-radius: 15px;
+  border-radius: 25px;
   border: none;
   display: flex;
   align-items: center;
@@ -30,7 +30,7 @@
 .activebtn {
   padding: 12px 35px;
   background-color: black;
-  border-radius: 15px;
+  border-radius: 25px;
   border: none;
   display: flex;
   align-items: center;
