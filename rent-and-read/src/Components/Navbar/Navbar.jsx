@@ -2,10 +2,10 @@ import styles from  "../Navbar/navbar.module.css";
 import logo from "../../assets/logo.png";
 import searchlogo from "../../assets/search.svg";
 import {  Link } from "react-router-dom";
-// import { useState } from "react";
+
 
 export default function NavBar() {
-// const [isuser, setisuser] = useState(username)
+
   return (
     <div className={styles.navbar}>
     <div className={styles.leftnav}>

@@ -1,6 +1,6 @@
 import styles from '../Onlinebookfair/Bookfair.module.css'
 import img from '../../assets/header-cover.jpg'
-
+import {Link} from "react-router-dom";
 const bookfair = () => {
   return (
     <div>
@@ -11,7 +11,10 @@ const bookfair = () => {
             <p>Discover, Explore, and Immerse Yourself in the World of Literature! <br />
             A Digital Wonderland for Book Lovers - Join Us in 2023
              </p>
-            <button className={styles.account}>Create Your Account</button>
+             <Link to={"/registrationform"}>
+             <button className={styles.account}  >Create Your Account</button>
+             </Link>
+            
         </div>
       </div>
     </div>

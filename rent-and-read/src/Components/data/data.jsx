@@ -71,8 +71,8 @@ import book407 from '../../assets/book407.png'
 import book408 from '../../assets/book408.png'
 import book409 from '../../assets/book409.png'
 
-
-
+import book801 from '../../assets/book801.png'
+import book802 from '../../assets/book802.png'
 
 export const booksData = [
   {
@@ -495,22 +495,22 @@ export const historyData = [
 
 export const todayoffer = [
   {
-    name: "Eating the Sun",
+    name: "The intelligent investor",
     price: "100/-",
-    author: " Ella Frances Sanders ",
-    imageSrc: book301,
+    author: "Benjamin Graham",
+    imageSrc: book801,
   },
   {
-    name: "Freshney's Culture of Animal Cells",
+    name: "Sapiens ",
     price: "100/-",
-    author: " Amanda Capes-Davi ",
-    imageSrc: book302,
+    author: " Harari Yuval Noah ",
+    imageSrc: book802,
   },
   {
-    name: "Dangerous Earth: What We Wish We Knew About Volcanoes, Hurricanes, Climate Change, Earthquakes and More",
+    name: "Ugly Love",
     price: "100/-",
     author: "Prager, Ellen",
-    imageSrc: book303,
+    imageSrc: book101,
   },
   {
     name: "Spike",

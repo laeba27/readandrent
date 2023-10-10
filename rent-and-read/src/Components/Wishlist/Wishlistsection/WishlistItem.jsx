@@ -1,9 +1,9 @@
 import styles from "./wishlistitem.module.css"
 import { Link } from "react-router-dom"
 import { useState } from 'react';
-import book301 from '../../../assets/book301.png'
-import book302 from '../../../assets/book302.png'
-import book303 from '../../../assets/book303.png'
+import book301 from '../../../assets/book801.png'
+import book302 from '../../../assets/book802.png'
+import book303 from '../../../assets/book101.png'
 import book from "../../../wishlistassests/book.png"
 import book1 from "../../../wishlistassests/book1.png"
 import book2 from "../../../wishlistassests/book2.png"
@@ -14,21 +14,21 @@ const WishlistItem = () => {
     const wishlist = [
         {
             id: 1,
-            name: "Eating the Sun",
+            name: "The Intelligent Investor",
             price: "100/-",
             author: " Ella Frances Sanders ",
             imageSrc: book301,
         },
         {
             id: 2,
-            name: "Freshney's Culture of Animal Cells",
+            name: "Sapiens",
             price: "100/-",
             author: " Amanda Capes-Davi ",
             imageSrc: book302,
         },
         {
             id: 3,
-            name: "Dangerous Earth: What We Wish We Knew About Volcanoes, Hurricanes, Climate Change, Earthquakes and More",
+            name: "Ugly love",
             price: "100/-",
             author: "Prager, Ellen",
             imageSrc: book303,
@@ -80,6 +80,10 @@ const WishlistItem = () => {
                                         <h4>{item.author}</h4>
                                         <h5>{item.name.length > 10 ? `${item.name.substring(0, 20)}...` : item.name}</h5>
                                         <p>Rs{" "}{item.price}</p>
+                                         <Link to={"/addtocart"}>
+
+                                            <button className={styles.bookbtn}>add to cart</button>
+                                        </Link>
                                     </div>
                                 </div>
                             )

@@ -1,5 +1,5 @@
 import styles from "../footer/footer.module.css";
-
+import {Link} from "react-router-dom";
 const footer = () => {
   return (
     <div>
@@ -24,9 +24,13 @@ const footer = () => {
         <div className={styles.firstrow}>
           <h2>user</h2>
           <ul>
-            <li>registration</li>
+          <Link to={"/registrationform"}>
+          <li>registration</li>
+          </Link>
             <li>basket</li>
-            <li>wishlist</li>
+            <Link to={"/wishlist"}>
+          <li>Wishlist</li>
+          </Link>
           </ul>
         </div>
         <div className={styles.firstrow}>
